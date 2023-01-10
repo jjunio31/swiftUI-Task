@@ -1,0 +1,49 @@
+Hi Jerick,
+>
+> I need you to work on:
+>
+> 1) how to create an install file (or method) so others can download the app for testing.
+>
+> 2) attach an icon image to the project
+>
+> 3)  make a view that updates a string binding and takes an integer as 
+> a parameter indicating the precision, allow only entering numbers and 
+> decimal point
+>
+> Example with precision 2, enter 30 the answer is "30.00"
+>
+> Use this:
+>
+> import SwiftUI
+>
+> struct TestPrecision: View {
+>       @State var reading:String = ""
+>       let precision = 2 // 2 decimal places
+>       var body: some View {
+>           VStack {
+>               Spacer()
+>               HStack {
+>                   Text("Test Precision!")
+>
+>                   TextPrecision(label: "Reading 1", reading: $reading,
+> precision: precision)
+>
+>               }
+>               Spacer()
+>           }
+>
+>       }
+> }
+>
+> /// JJ Do All the work in this struct!
+>
+> struct TextPrecision: View {
+>       let label:String
+>       @Binding var reading:String
+>       let precision :Int  // decimal places
+>       var body: some View {
+>           TextField(label, text: $reading)
+>
+>
+>       }
+> }
