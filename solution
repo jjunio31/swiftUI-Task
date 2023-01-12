@@ -1,0 +1,44 @@
+import SwiftUI
+
+struct TestPrecision2: View {
+     init()
+     {
+         print("testing Precision")
+
+         let _ = setPrecision(num: 30.0, prec: 2) /// should return "30.00"
+         let _ = setPrecision(num: 30.1, prec: 2) /// should return "30.10"
+         let _ = setPrecision(num: 30.12, prec: 2) /// should return "30.12"
+         let _ = setPrecision(num: 30.12, prec: 3) /// should return "30.120"
+         let _ = setPrecision(num: 30.1234, prec: 2) /// should return "30.12"
+
+     }
+     var body: some View {
+
+         VStack {
+
+             HStack {
+                 Text(setPrecision(num:30.0, prec: 2))
+
+             }
+         }
+
+     }
+     func setPrecision(num: Float, prec: Int) -> String {
+         
+         //var ret = ""
+         var ret = num // do work here
+         var prec2 = prec
+         
+         let formatted = String(format: "%.\(prec2)f", ret)
+        
+         print("Debug setPrecision\(num), prec: \(prec) -> \(ret)")
+         return String("Precision: \(formatted)")
+         
+     }
+}
+
+struct TestPrecision2_Previews: PreviewProvider {
+    static var previews: some View {
+        TestPrecision2()
+    }
+}
