@@ -7,3 +7,7 @@ I have a url which will download a pdf
 http://sotg.awe.com.au:18091/api/get_manual?AuthCode=08213-31144-17075-198968&folder=Excell&file=03001021_counting_scale__Service_Manualv11.pdf
 
 can you make a swiftui to download it and display it?
+
+
+
+// Custom PDF View for SwiftUI // - youtube source
