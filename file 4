@@ -25,7 +25,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Link("Learn SwiftUI", destination: URL(string: "https://www.hackingwithswift.com/quick-start/swiftui")!)
+        Link("Learn SwiftUI", destination: URL(string: "http://sotg.awe.com.au:18091/api/get_manual?AuthCode=08213-31144-17075-198968&folder=Excell&file=03001021_counting_scale__Service_Manualv11.pdf")!)
     }
 }
 
