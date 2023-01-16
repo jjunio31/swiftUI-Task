@@ -11,3 +11,26 @@ can you make a swiftui to download it and display it?
 
 
 // Custom PDF View for SwiftUI // - youtube source
+
+
+// ***************** code to open link in Safari *****************//
+// From SwiftUI by Example by Paul Hudson
+// https://www.hackingwithswift.com/quick-start/swiftui
+//
+// You're welcome to use this code for any purpose,
+// commercial or otherwise, with or without attribution.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Link("Learn SwiftUI", destination: URL(string: "https://www.hackingwithswift.com/quick-start/swiftui")!)
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
