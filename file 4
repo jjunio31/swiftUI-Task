@@ -51,7 +51,16 @@ struct PDFKitView: View {
 
 
 
+import SwiftUI
+import PDFKit
 
+struct PDFKitView: View {
+    var url: URL
+
+    var body: some View {
+        PDFKitRepresentedView(url)
+    }
+}
 
 
 struct PDFKitRepresentedView: UIViewRepresentable {
