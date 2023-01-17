@@ -82,3 +82,5 @@ struct PDFKitRepresentedView: UIViewRepresentable {
     }
 }
 
+
+https://stackoverflow.com/questions/63481939/how-to-download-a-pdf-file-in-swift-and-find-in-file-manager
