@@ -1,0 +1,202 @@
+open api model
+
+page down until you find a codeable
+
+stop
+
+meaDeviceCodeable
+
+crteate a group under Models
+
+called Codeable
+
+create a new file in this group called MeaDeviceCodeable
+
+go back to ApiModel
+
+move the struct to the new file
+
+double click the first {
+
+cut
+
+make sure the code builds
+
+ok, sort that out later
+
+now after make a file for every codeable structure
+
+but first
+
+make another group under Models called Picker
+
+open Views/MeaReports
+
+ReportEditView
+
+scroll down
+
+ok
+
+InstrumentResolutionView
+
+create a file under Picker and put this structure into it 
+
+chenge its name to ResulutionPicker
+
+11:37 AM
+Change the name of InstrumentResolutionview to Resoluion picker?
+
+Barry, 11:37 AM
+create a file Picker/ResolutionPickerView
+
+move the code
+
+ok, now study this code
+
+
+there is a fetchrequest: 
+
+
+
+
+
+
+
+Stop please
+
+and study the code
+
+stop just randomly looking
+
+wait I will control and clean up the codee
+
+now look in the SotgModel2
+
+
+
+We need pickers for each of these tables
+
+thats your job
+
+now we will do it for MeaBaseMakes
+
+creat ethe PickerView
+
+copy the code crom the resolutions
+
+change the extension 
+
+
+
+NO
+
+Yes
+
+change this bit
+
+we are returning MeaBaseMakes here
+
+the sort descriptors will break
+
+open the table in the SotgModel2
+
+copy the field you want to sory by
+
+*sort
+
+there is only one firld in this table
+
+
+
+
+
+thjat string 
+
+copy the string
+
+See?
+
+11:57 AM
+Yes, Got it
+
+Barry, 11:57 AM
+change this to MeaBaseMakes
+
+This is the field displayed
+
+change this name 
+
+baseMakesList
+
+it is a list
+
+sorry i clicked
+
+uppercase L in List
+
+cxhange this variable name
+
+done!
+
+now many more
+
+
+
+12:04 PM
+Okay,  Got it Barry..
+
+Barry, 12:05 PM
+and all the codeables
+
+12:05 PM
+What should i do in the codeables again? Sorry
+
+Barry, 12:06 PM
+find the codeables in ApiModel
+
+create a separate file for each struct 
+
+12:07 PM
+And all should be created in Picker group, right?
+
+Barry, 12:07 PM
+codeables go in the codeables group
+
+pickers go in the pickers group
+
+12:08 PM
+Okay Barry, Yes Got it
+
+Barry, 12:08 PM
+
+
+my os is 16
+
+talk to Dell or Tina to fix your install issues
+
+or google
+
+
+
+12:10 PM
+Okay, are there simulators showing kn your xcode?
+No simulators showing on mine on this project
+
+Barry, 12:11 PM
+yes i only use simulators, but i should use my iPad
+
+get Tina to order you an iPad too
+
+I think all Engineers are using an iPad so we need to make sure it looks ok on their devices
+
+12:13 PM
+Yes I believe all of them are using iPad. Hope the project will build after I update xcode version
+Is this what they call MVVM pattern? 
+
+Barry, 12:58 PM
+Not exactly 
+
+
+Barry, 7:00 PM
+M VM V is Model, View and ViewModel, Model stores the data, View only views/edits the data on the page, the ViewModel is where all the business logic occurs, our logic is very simple, but we may have to implement the ViewModel aspect before wee are finished.
