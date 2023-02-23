@@ -1,0 +1,30 @@
+ok, copy that to ForkliftDeviceEditView
+and make it look like the BF image above
+
+I want to make sure you dont get stuck on enything
+
+is you get stuck let me know and I will guide you around it
+
+The Forklift needs 3 Edit Views
+
+One for Device, Calibrations and Remarks
+
+The data is in the MeaDevice and MeaForklift tables
+
+We need all of these Views for all the calibration types
+
+I imagine you will get stuck changing the menus too
+
+so dont do that I will fix the menus for you
+
+The Field names should be close to the Pronto fields names
+
+//Below is the summarize task
+
+create a group for forklifts
+copy Report Edit View to ForkliftDeviceEditView
+The Forklift needs 3 Edit Views
+One for Device, Calibrations and Remarks
+The data is in the MeaDevice and MeaForklift tables
+The Field names should be close to the Pronto fields names
+We need all of these Views for all the calibration types
